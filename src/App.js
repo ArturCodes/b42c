@@ -7,7 +7,7 @@ import {
 import Home from "./Components/Pages/Home/home"
 import About from "./Components/Pages/About/about"
 import Contact from "./Components/Pages/Contact/contact"
-import Footer from "./Components/Footer/footer"
+import Services from "./Components/Pages/Services/services"
 
 function App() {
   return (
@@ -20,13 +20,14 @@ function App() {
             <Home />
           </Route>
 
-          <Route  path="/about">
+          <Route path="/about">
             <About />
           </Route>
 
-          <Route path="/footer">
-            <Footer />
+          <Route path="/services">
+            <Services />
           </Route>
+          
           <Route path="/contact">
             <Contact />
           </Route>
