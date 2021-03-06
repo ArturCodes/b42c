@@ -29,7 +29,6 @@ function App() {
           <Route path="/footer">
             <Footer />
           </Route>
-
           <Route path="/contact">
             <Contact />
           </Route>
