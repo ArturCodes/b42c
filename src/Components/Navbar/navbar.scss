@@ -1,0 +1,18 @@
+.navbar {
+    background-color: rgba(148, 125, 177, 0.329);
+    .logo {
+    }
+    ul {
+        color: #002f6c;
+        display: flex;
+        list-style-type: none;
+        padding: 5px;
+        li {
+            margin: auto;
+            padding-right: 25px;
+            &:hover {
+                color: #f0ad4e;
+            }
+        }
+    }
+}
