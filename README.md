@@ -15,6 +15,5 @@ https://unsplash.com/
 - Main color: #002F6C
 - Secondary color: #F0AD4E
 - Font: Montserrat
- 
 
  **************************************

@@ -4,10 +4,9 @@ import {
   Route,
   // Link
 } from "react-router-dom";
-
-import Home from "./Components/Home/home"
-import About from "./Components/About/about"
-import Contact from "./Components/Contact/contact"
+import Home from "./Components/Pages/Home/home"
+import About from "./Components/Pages/About/about"
+import Contact from "./Components/Pages/Contact/contact"
 import Footer from "./Components/Footer/footer"
 
 function App() {
