@@ -1,9 +1,7 @@
 .navbar {
-    background-color: rgba(148, 125, 177, 0.329);
-    .logo {
-    }
+    background-color: rgba(235, 228, 228, 0.493);
     ul {
-        color: #002f6c;
+        color: #002F6C;
         display: flex;
         list-style-type: none;
         padding: 5px;
@@ -11,7 +9,7 @@
             margin: auto;
             padding-right: 25px;
             &:hover {
-                color: #f0ad4e;
+                color: #F0AD4E;
             }
         }
     }

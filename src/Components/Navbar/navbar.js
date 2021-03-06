@@ -4,7 +4,6 @@ import "./navbar.scss"
 const Navbar = () => {
     return ( 
         <div className="navbar">
-
             <div className="logo">
                 <a href="/home"><img src="../../resouuces/logo" alt="logo"/></a>
             </div>
