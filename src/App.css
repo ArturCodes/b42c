@@ -1,7 +1,0 @@
-/* Resets & Default Font */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
-* {
-    font-family: "Montserrat", sans-serif;
-    padding: 0;
-    margin: 0;
-}
