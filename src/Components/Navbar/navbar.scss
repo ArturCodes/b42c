@@ -1,13 +1,18 @@
 .navbar-wrapper {
     display: flex;
-    background-color: #002f6c;
     flex-direction: column;
-
+    height: 50px;
     ul {
+        display: flex;
         a {
+            font-family: "montserrat", "sans‑serif";
+            font-weight: 900;
+            font-size: 1.5em;
+
             flex-direction: row;
             list-style-type: none;
-            padding: 5px;
+            padding: 8px 25px;
+            margin: 0 auto;
             color: #f0ad4e;
         }
     }

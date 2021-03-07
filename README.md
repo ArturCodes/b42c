@@ -9,6 +9,10 @@ Resources
 https://unsplash.com/
 
 
+Ink Drop Source
+https://www.youtube.com/watch?v=3OTms9P1mr8 
+ - @2:39 into the video
+
 
 *************************************
  
