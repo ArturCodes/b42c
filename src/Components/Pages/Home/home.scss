@@ -1,11 +1,16 @@
+.home-wrapper {
 
-.bg-vid {
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: flex-end;
+    background-color: whitesmoke;
+    height: 200vh;
+
+
     video {
-        object-fit: cover;
-        width: 100vw;
         height: 100vh;
-        position: fixed;
-        top: 0;
-        left: 0;
-    }
+        width: 100vw;
+        margin: 0 auto;
+        object-fit: cover;
+       }
 }

@@ -1,20 +1,32 @@
+$primary: #002f6c;
+$primary-light: #2166c2;
+$secondary: #f0ad4e;
+$secondary-light: #ffecd2;
+
 .navbar-wrapper {
     display: flex;
-    flex-direction: column;
-    height: 50px;
-    position: fixed;
-    ul {
-        display: flex;
-        a {
-            font-family: "montserrat", "sans‑serif";
-            font-weight: 900;
-            font-size: 1.5em;
+    justify-content: flex-end;
 
-            flex-direction: row;
-            list-style-type: none;
-            padding: 8px 25px;
-            margin: 0 auto;
-            color: #f0ad4e;
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
+    margin: 50px -50px;
+
+
+    a {
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 1.25em;
+        padding: 12px 50px;
+        margin: 15px 0;
+        :last-of-type {
+            padding-right: 50px;
+        }
+
+        color:  black;
+        &:hover {
+            color: $primary;
         }
     }
 }
+ 
