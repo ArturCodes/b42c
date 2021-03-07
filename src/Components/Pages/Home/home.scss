@@ -1,8 +1,11 @@
-.home-wrapper {
-    height: 100vh;
-    background-image: url("../../../assets/bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
+.bg-vid {
+    video {
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+}
