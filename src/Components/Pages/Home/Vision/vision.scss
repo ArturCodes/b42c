@@ -1,0 +1,39 @@
+$primary: #002f6c;
+$primary-light: #2166c2;
+$secondary: #f0ad4e;
+$secondary-light: #ffecd2;
+
+//----------------------------------------------
+
+.vision {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-content: center;
+    
+    background-color: #f0ac4e;
+    padding: 25px;
+    width: auto;
+    height: 300px;
+    margin-top: -5px;
+    
+    .right {
+        margin-right: 50px;
+    }
+    
+    .left {
+        h1 {
+            color: $primary;
+            font-size: 3.5em;
+        }
+        p {
+            margin-top: -30px;
+        }
+    }
+
+    img {
+        height: 200px;
+        width: 200px;
+    }
+}

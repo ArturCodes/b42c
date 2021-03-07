@@ -23,7 +23,10 @@ Ink Drop Source
 https://www.youtube.com/watch?v=3OTms9P1mr8 
  - @2:39 into the video
 
- https://css-tricks.com/full-page-background-video-styles/
+vision graphic
+https://www.freepik.com/free-vector/logotype_4352888.htm#page=1&query=world&position=21
+
+https://css-tricks.com/full-page-background-video-styles/
 
 
 

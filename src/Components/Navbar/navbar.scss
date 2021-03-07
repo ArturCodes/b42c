@@ -3,17 +3,42 @@ $primary-light: #2166c2;
 $secondary: #f0ad4e;
 $secondary-light: #ffecd2;
 
+//----------------------------------------------
+
 .navbar {
     display: flex;
-    flex-direction: column;
-    position: absolute;
-    z-index: 1;
+    flex-direction: row;
+ 
+    z-index: 99;
 
-    .nav-right {
-        position: relative;
-        right: -150px;
-        top: 100px;
+    .logo {
+        align-items: center;
         a {
+            background-color: red;
+        }
+        img {
+            position: absolute;
+        }
+        
+    }
+
+    .bars {
+        font-size: 2em;
+        position: relative;
+        top: 75px;
+        display: none;
+    }
+
+    .navigation {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+       margin-top: 75px;
+       z-index: 99;
+        a {
+            padding-right: 25px;
             text-decoration: none;
             font-weight: 600;
             font-size: 1.5em;
@@ -25,15 +50,8 @@ $secondary-light: #ffecd2;
         }
     }
 
-    .nav-left {
-        // background-image: url("../../assets/myLogo.png");
-        background-size: 150px;
-        background-repeat: no-repeat;
-        width: 50vw;
-        height: 25vh;
-        position: relative;
-        left: 40px;
-        top: 40px;
+    .mobile-navigation {
+        display: none;
     }
 }
 
@@ -41,15 +59,18 @@ $secondary-light: #ffecd2;
 //        Media Screen < 1000px
 // ----------------------------------
 @media only screen and (max-width: 1000px) {
-    
-    .nav-right {
-        display: none;
-     
-    }
-    .nav-left img {
+    .navigation {
+        //not sure why its not working without !important
+        display: none !important; 
         position: relative;
-        left: -25px;
+    }
+    .bars {
+        display: block !important;
+        position: absolute;
+    }
+    .logo {
         margin: 0 auto;
-        background-color: yellow;
+        background-color: transparent;
+        width: 100%;
     }
 }

@@ -1,10 +1,17 @@
+$primary: #002f6c;
+$primary-light: #2166c2;
+$secondary: #f0ad4e;
+$secondary-light: #ffecd2;
+
+//----------------------------------------------
+
 .home-wrapper {
     // display: flex;
     // flex-direction: row;
     // justify-content: flex-end;
     background-color: whitesmoke;
     height: 200vh;
-    position: relative;
+    position: absolute;
 
     video {
         height: 100vh;
@@ -15,25 +22,12 @@
         object-fit: cover;
     }
 
-    .vision {
-        // background-color: rgb(223, 144, 25);
-        position: absolute;
-        // bottom: 50px;
-        // margin: 0 auto;
-        // width: 100wv;
-        img {
-            height: 200px;
-            width: 200px;
-        }
-    }
 }
-
 
 // ----------------------------------
 //        Media Screen < 1000px
 // ----------------------------------
 @media only screen and (max-width: 1000px) {
-    
     .nav-right {
         display: none;
     }
