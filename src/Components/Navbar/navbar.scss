@@ -8,23 +8,18 @@ $secondary-light: #ffecd2;
 .navbar {
     display: flex;
     flex-direction: row;
- 
+    position: absolute;
     z-index: 99;
 
     .logo {
         align-items: center;
-        a {
-            background-color: red;
-        }
         img {
             position: absolute;
         }
-        
     }
 
     .bars {
         font-size: 2em;
-        position: relative;
         top: 75px;
         display: none;
     }
@@ -34,9 +29,9 @@ $secondary-light: #ffecd2;
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        width: 100%;
-       margin-top: 75px;
-       z-index: 99;
+        width: 100vw;
+        margin-top: 75px;
+        z-index: 1;
         a {
             padding-right: 25px;
             text-decoration: none;
@@ -61,7 +56,7 @@ $secondary-light: #ffecd2;
 @media only screen and (max-width: 1000px) {
     .navigation {
         //not sure why its not working without !important
-        display: none !important; 
+        display: none !important;
         position: relative;
     }
     .bars {

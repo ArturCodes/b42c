@@ -10,30 +10,62 @@ $secondary-light: #ffecd2;
     flex-direction: row;
 
     justify-content: center;
+    flex-wrap: wrap;
     align-content: center;
-    
-    background-color: #f0ac4e;
+    align-self: center;
+
     padding: 25px;
     width: auto;
-    height: 300px;
+    min-height: 400px;
     margin-top: -5px;
-    
+
+    background-image: linear-gradient(to bottom, $secondary, $secondary-light );
+
     .right {
-        margin-right: 50px;
+        margin-right: 75px;
     }
-    
+
     .left {
         h1 {
             color: $primary;
             font-size: 3.5em;
+            text-decoration: underline;
+            text-decoration-color: $secondary;
+            &:hover {
+                color: $primary-light;
+                text-decoration-color: $secondary;
+            }
+            img {
+                display: none;
+            }
         }
         p {
             margin-top: -30px;
+            color: black;
+            font-size: 1.5em;
         }
     }
 
     img {
         height: 200px;
         width: 200px;
+    }
+}
+
+// ----------------------------------
+//        Media Screen < 1000px
+// ----------------------------------
+@media only screen and (max-width: 1000px) {
+    .vision {
+        height: auto;
+        .left {
+            padding-left: 35px;
+            margin: 5px;
+            font-size: 0.8em;
+        }
+
+        .right {
+            display: none;
+        }
     }
 }

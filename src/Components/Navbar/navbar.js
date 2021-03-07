@@ -21,6 +21,8 @@ const Navbar = () => {
 
             <div className="bars"><FaBars/></div>
             
+
+            {/* I suck at navbars =( */}
             <div className="mobile-navigation">
                 <NavLink exact to="/">Home </NavLink>
                 <NavLink to="/services">Services</NavLink>
