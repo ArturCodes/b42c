@@ -3,30 +3,36 @@ $primary-light: #2166c2;
 $secondary: #f0ad4e;
 $secondary-light: #ffecd2;
 
-.navbar-wrapper {
+.navbar {
     display: flex;
-    justify-content: flex-end;
-
-    width: 100vw;
+    flex-direction: row;
     position: absolute;
     z-index: 1;
-    margin: 50px -50px;
+    width: 100vw;
 
-
-    a {
-        text-decoration: none;
-        font-weight: 900;
-        font-size: 1.25em;
-        padding: 12px 50px;
-        margin: 15px 0;
-        :last-of-type {
-            padding-right: 50px;
-        }
-
-        color:  black;
-        &:hover {
-            color: $primary;
+    .nav-right {
+        position: relative;
+        right: 0;
+        top: 107px;
+        a {
+            text-decoration: none;
+            font-weight: 900;
+            font-size: 2.25em;
+            color: black;
+            &:hover {
+                color: $primary;
+            }
         }
     }
+
+    .nav-left {
+        background-image: url("../../assets/myLogo.png");
+        background-size: 350px;
+        background-repeat: no-repeat;
+        width: 50vw;
+        height: 25vh;
+        position: relative;
+        left: 40px;
+        top: 40px;
+    }
 }
- 

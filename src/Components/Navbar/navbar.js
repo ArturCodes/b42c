@@ -1,14 +1,13 @@
 import "./navbar.scss"
 import { NavLink } from "react-router-dom"
-import myLogo from "../../assets/myLogo2.png"
 
 const Navbar = () => {
-    console.log({myLogo})
+
     return (
-        <div className="navbar-wrapper">
+        <div className="navbar">
 
             <div className="nav-left">
-                <img src={require('./myLogo.png')} alt="Elite Media Design"></img>
+                <NavLink exact to="/"></NavLink> 
             </div>
 
             <div className="nav-right">
