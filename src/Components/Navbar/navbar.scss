@@ -12,12 +12,13 @@ $secondary-light: #ffecd2;
 
     .nav-right {
         position: relative;
-        right: 0;
-        top: 107px;
+        right: -150px;
+        top: 115px;
         a {
             text-decoration: none;
-            font-weight: 900;
-            font-size: 2.25em;
+            font-weight: 600;
+            font-size: 1.5em;
+            margin: 0 15px;
             color: black;
             &:hover {
                 color: $primary;
@@ -26,8 +27,8 @@ $secondary-light: #ffecd2;
     }
 
     .nav-left {
-        background-image: url("../../assets/myLogo.png");
-        background-size: 350px;
+        // background-image: url("../../assets/myLogo.png");
+        background-size: 150px;
         background-repeat: no-repeat;
         width: 50vw;
         height: 25vh;

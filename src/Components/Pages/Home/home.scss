@@ -1,16 +1,27 @@
 .home-wrapper {
-
     // display: flex;
     // flex-direction: row;
     // justify-content: flex-end;
     background-color: whitesmoke;
     height: 200vh;
-
+    position: relative;
 
     video {
         height: 100vh;
         width: 100vw;
         margin: 0 auto;
         object-fit: cover;
-       }
+    }
+
+    .vision {
+        // background-color: rgb(223, 144, 25);
+        position: absolute;
+        // bottom: 50px;
+        // margin: 0 auto;
+        // width: 100wv;
+        img {
+            height: 200px;
+            width: 200px;
+        }
+    }
 }

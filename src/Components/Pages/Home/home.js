@@ -8,6 +8,10 @@ const Home = () => {
         <div className="home-wrapper">
             <Navbar />
             <video src={ink} autoPlay="true" loop="true" muted="true" poster={inkBG}></video>
+            <div className="vision">
+                <p>Our vision is to create a business world full of prosperity, meaning, <br/> 
+                and connection for all.</p>
+            </div>
         </div>
     );
 }
