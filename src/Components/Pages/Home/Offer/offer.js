@@ -2,6 +2,8 @@ import { NavLink } from "react-router-dom"
 import "./offer.scss"
 
 
+
+
 const Offer = () => {
     return (
         <div className="offer-wrapper">
@@ -22,7 +24,7 @@ const Offer = () => {
 
                 <div className="row3">
                     <div className="card">Email Marketing</div>
-                    <div className="card"><NavLink to="/services">Learn More Here</NavLink></div>
+                    <div className="card"><NavLink to="/services">Learn more</NavLink></div>
                 </div>
             </div>
         </div>

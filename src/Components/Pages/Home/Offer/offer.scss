@@ -12,25 +12,28 @@ $secondary-light: #ffecd2;
     justify-content: center;
     align-items: center;
     background-color: whitesmoke;
-
+    // background-image: url('../../../img/songofsea.png');
+    background-image: url('../../../img/offers.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 75px;
 
     h1 {
-        color: $primary;
+        color: $secondary;
         font-size: 2.5em;
         text-decoration-color: $secondary;
     }
 
     .card {
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         min-height: 100px;
         min-width: 200px;
         margin: 10px;
-        border-radius: 15px;
-        background-color: rgba(21, 4, 255, 0.185);
+        border-radius: 5px;
+        background-color: whitesmoke;
         box-shadow: 1px 1px 7px 0px black;
         font-size: 1.2em;
     }
@@ -40,7 +43,7 @@ $secondary-light: #ffecd2;
     .row3 {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: w;
         justify-content: center;
         align-items: center;
     }
@@ -50,4 +53,9 @@ $secondary-light: #ffecd2;
 //        Media Screen < 1000px
 // ----------------------------------
 @media only screen and (max-width: 1000px) {
+    .card {
+        min-width: none;
+        min-height: none;
+    }
 }
+

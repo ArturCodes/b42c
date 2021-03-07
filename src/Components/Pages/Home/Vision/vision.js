@@ -1,13 +1,14 @@
 import React from 'react'
-import "./vision.scss"
 import Vision from '../../../img/visionVision.png'
+import "./vision.scss"
 
 function vision() {
+
     return (
         <div className="vision">
 
             <div className="right">
-                <img src={Vision} alt="" />
+                <img src={Vision} alt="Vision" />
             </div>
 
             <div className="left">
@@ -16,8 +17,9 @@ function vision() {
                 </div>
 
                 <div>
-                    <p>is to create a business world full of prosperity, meaning, <br />
-                and connection for all.</p>
+                    <p>is to create a business world full of prosperity, meaning, </p>
+                    <br />
+                    <p>and connection for all.</p>
                 </div>
 
             </div>

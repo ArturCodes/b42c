@@ -24,11 +24,18 @@ Ink Drop Source
 https://www.youtube.com/watch?v=3OTms9P1mr8 
  - @2:39 into the video
 
-WandaVision Graphic
+Vision Graphic
 https://www.freepik.com/free-vector/logotype_4352888.htm#page=1&query=world&position=21
 https://toppng.com/free-image/mind-stone-by-saiol-power-stone-png-saiol1000-PNG-free-PNG-Images_163325
 
+react-responsive-carousel
+https://www.npmjs.com/package/react-responsive-carousel
+
+EDM Offers Graphic
+https://www.freepik.com/free-vector/customer-support-representatives-working-call-center_9174514.htm#page=1&query=service&position=2
 
 
+maybe
+https://www.freepik.com/free-vector/online-assistant-user-help-frequently-asked-questions-call-center-worker-cartoon-character-woman-working-hotline_11669087.htm
 
 What I learned.... img files need to be closer to the source, cause webpack sucks at finding them. And sometimes you need to restart the whole application to make it work.
