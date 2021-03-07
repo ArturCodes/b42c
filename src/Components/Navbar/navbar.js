@@ -1,6 +1,6 @@
 import "./navbar.scss"
 import { NavLink } from "react-router-dom"
-import logo from "../../Components/img/s.png"
+import logo from "../../Components/img/s2.png"
 
 const Navbar = () => {
 
@@ -18,6 +18,7 @@ const Navbar = () => {
                 <NavLink to="/contact">Contact</NavLink>
             </div>
 
+            
         </div>
     );
 }
