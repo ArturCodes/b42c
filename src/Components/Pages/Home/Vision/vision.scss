@@ -31,10 +31,6 @@ $secondary-light: #ffecd2;
             font-size: 3.5em;
             text-decoration: underline;
             text-decoration-color: $secondary;
-            &:hover {
-                color: $primary-light;
-                text-decoration-color: $secondary;
-            }
             img {
                 display: none;
             }

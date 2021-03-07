@@ -1,0 +1,53 @@
+$primary: #002f6c;
+$primary-light: #2166c2;
+$secondary: #f0ad4e;
+$secondary-light: #ffecd2;
+
+//----------------------------------------------
+
+.offer-wrapper {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+
+    padding: 75px;
+
+    h1 {
+        color: $primary;
+        font-size: 2.5em;
+        text-decoration-color: $secondary;
+    }
+
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        min-height: 100px;
+        min-width: 200px;
+        margin: 10px;
+        border-radius: 15px;
+        background-color: rgba(21, 4, 255, 0.185);
+        box-shadow: 1px 1px 7px 0px black;
+        font-size: 1.2em;
+    }
+
+    .row1,
+    .row2,
+    .row3 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+// ----------------------------------
+//        Media Screen < 1000px
+// ----------------------------------
+@media only screen and (max-width: 1000px) {
+}

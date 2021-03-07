@@ -24,7 +24,7 @@ Ink Drop Source
 https://www.youtube.com/watch?v=3OTms9P1mr8 
  - @2:39 into the video
 
-Vision Graphic
+WandaVision Graphic
 https://www.freepik.com/free-vector/logotype_4352888.htm#page=1&query=world&position=21
 https://toppng.com/free-image/mind-stone-by-saiol-power-stone-png-saiol1000-PNG-free-PNG-Images_163325
 
