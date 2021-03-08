@@ -8,5 +8,19 @@ $secondary-light: #ffecd2;
 .footer-wrapper {
     background-color: #1c2133;
     min-height: 300px;
-    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    
+    .footer-links {
+        padding: 25px;
+        margin: 25px;
+        display: flex;
+        flex-direction: column;
+        a {
+            font-size: 1.5em;
+            color: whitesmoke;
+            list-style: none;
+            text-decoration: none;
+        }
+    }
 }

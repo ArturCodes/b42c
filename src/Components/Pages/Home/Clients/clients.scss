@@ -8,12 +8,11 @@ $secondary-light: #ffecd2;
 .clients-wrapper {
     background-color: whitesmoke;
     min-height: 400px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    margin: 25px;
 
     h1 {
         color: $secondary;
@@ -24,9 +23,10 @@ $secondary-light: #ffecd2;
     .clients {
         display: flex;
         flex-direction: row;
-         img {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        img {
             height: 100px;
-            width: auto;
             padding: 15px;
         }
     }
@@ -36,8 +36,23 @@ $secondary-light: #ffecd2;
 //        Media Screen < 1000px
 // ----------------------------------
 @media only screen and (max-width: 1000px) {
-    .clients {
-        display: flex;
-        flex-direction: column;
+    .clients-wrapper {
+        width: auto;
+        
+        margin: 15px auto;
+        h1 {
+            font-size: 2em;
+        }
+        .clients {
+            display: flex-start;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            padding: 0;
+            margin: 0;
+            img {
+                height: 75px;
+            }
+        }
     }
 }

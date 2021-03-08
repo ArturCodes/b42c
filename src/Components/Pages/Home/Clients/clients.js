@@ -21,7 +21,7 @@ function clients() {
                 <img src={WallMarat} alt="WallMarat" />
                 <img src={BlackFish} alt="BlackFish" />
                 <img src={Clam} alt="Clam" />
-                <img src={FleetFarm} alt="FleetFarm" />
+                <img src={FleetFarm} alt="FleetFarm" className=""/>
             </div>
 
         </div>

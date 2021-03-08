@@ -1,20 +1,20 @@
 import React from 'react'
 import { NavLink } from "react-router-dom"
 import "./footer.scss"
-import Logo from "../../../img/Logo.png"
 
 function Footer() {
     return (
         <div className="footer-wrapper">
-            <div>
+            <div className="footer-links">
                 <NavLink exact to="/">Home </NavLink>
                 <NavLink to="/services">Services</NavLink>
                 <NavLink to="/about">About</NavLink>
                 <NavLink to="/contact">Contact</NavLink>
             </div>
-            <div><img src={Logo} alt=""/></div>
-            <div>
-                
+            <div className="footer-info">
+                <p>Phone: 763-123-1234</p>
+                <p>Email: info@elitemediadesign.com</p>
+                <p>Address: 80 S 8th St, Suite #005 Minneapolis, MN 55402</p>
             </div>
         </div>
     )
